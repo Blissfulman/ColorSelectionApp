@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CE3DD1F22587C58C00C31D7F /* ColorSelectionAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3DD1F12587C58C00C31D7F /* ColorSelectionAppApp.swift */; };
-		CE3DD1F42587C58C00C31D7F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3DD1F32587C58C00C31D7F /* ContentView.swift */; };
+		CE3DD1F42587C58C00C31D7F /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3DD1F32587C58C00C31D7F /* MainView.swift */; };
 		CE3DD1F62587C58E00C31D7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE3DD1F52587C58E00C31D7F /* Assets.xcassets */; };
 		CE3DD1F92587C58E00C31D7F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE3DD1F82587C58E00C31D7F /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		CE3DD1EE2587C58C00C31D7F /* ColorSelectionApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorSelectionApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE3DD1F12587C58C00C31D7F /* ColorSelectionAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSelectionAppApp.swift; sourceTree = "<group>"; };
-		CE3DD1F32587C58C00C31D7F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CE3DD1F32587C58C00C31D7F /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		CE3DD1F52587C58E00C31D7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE3DD1F82587C58E00C31D7F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CE3DD1FA2587C58E00C31D7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -53,7 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				CE3DD1F12587C58C00C31D7F /* ColorSelectionAppApp.swift */,
-				CE3DD1F32587C58C00C31D7F /* ContentView.swift */,
+				CE3DD1F32587C58C00C31D7F /* MainView.swift */,
 				CE3DD1F52587C58E00C31D7F /* Assets.xcassets */,
 				CE3DD1FA2587C58E00C31D7F /* Info.plist */,
 				CE3DD1F72587C58E00C31D7F /* Preview Content */,
@@ -138,7 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE3DD1F42587C58C00C31D7F /* ContentView.swift in Sources */,
+				CE3DD1F42587C58C00C31D7F /* MainView.swift in Sources */,
 				CE3DD1F22587C58C00C31D7F /* ColorSelectionAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
