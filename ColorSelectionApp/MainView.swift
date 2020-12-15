@@ -29,7 +29,7 @@ struct MainView: View {
                                 opacity: 1))
                     .frame(height: 120)
                     .overlay(RoundedRectangle(cornerRadius: 20)
-                                .stroke(Color.white, lineWidth: 4))
+                                .stroke(Color.white, lineWidth: 3))
                     .padding(.bottom, 50)
                 
                 ColorSlider(value: $redSliderValue,
@@ -71,7 +71,6 @@ struct ColorSlider: View {
                 }
             
             TextField("", text: $stringValue)
-                .keyboardType(UIKeyboardType.numberPad)
                 .textFieldStyle(RoundedBorderTextFieldStyle())
                 .frame(width: 50)
                 .onAppear {
