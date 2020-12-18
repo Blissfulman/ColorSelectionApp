@@ -68,8 +68,11 @@ struct ColorSelectorBar_Previews: PreviewProvider {
     @State static var sliderValue = Double.random(in: 0...255)
     
     static var previews: some View {
-        ColorSelectorBar(value: $sliderValue,
-                         stringValue: "\(lround(sliderValue))",
+        ZStack {
+            Color(.gray)
+            ColorSelectorBar(value: $sliderValue,
+                             stringValue: "\(lround(sliderValue))",
                          color: .orange)
+        }
     }
 }

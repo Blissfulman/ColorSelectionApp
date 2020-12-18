@@ -12,6 +12,7 @@
 		CE3DD1F42587C58C00C31D7F /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3DD1F32587C58C00C31D7F /* MainView.swift */; };
 		CE3DD1F62587C58E00C31D7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE3DD1F52587C58E00C31D7F /* Assets.xcassets */; };
 		CE3DD1F92587C58E00C31D7F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE3DD1F82587C58E00C31D7F /* Preview Assets.xcassets */; };
+		CE9BEA82258BC65B0006EFEA /* ColorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9BEA81258BC65B0006EFEA /* ColorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		CE3DD1F52587C58E00C31D7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE3DD1F82587C58E00C31D7F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CE3DD1FA2587C58E00C31D7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE9BEA81258BC65B0006EFEA /* ColorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				CE3DD1F12587C58C00C31D7F /* ColorSelectionAppApp.swift */,
 				CE3DD1F32587C58C00C31D7F /* MainView.swift */,
+				CE9BEA81258BC65B0006EFEA /* ColorView.swift */,
 				CE3B33D8258A035C0004F938 /* ColorSelectorBar.swift */,
 				CE3DD1F52587C58E00C31D7F /* Assets.xcassets */,
 				CE3DD1FA2587C58E00C31D7F /* Info.plist */,
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE9BEA82258BC65B0006EFEA /* ColorView.swift in Sources */,
 				CE3DD1F42587C58C00C31D7F /* MainView.swift in Sources */,
 				CE3B33D9258A035C0004F938 /* ColorSelectorBar.swift in Sources */,
 				CE3DD1F22587C58C00C31D7F /* ColorSelectionAppApp.swift in Sources */,

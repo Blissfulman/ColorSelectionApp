@@ -8,34 +8,26 @@
 import SwiftUI
 
 struct MainView: View {
-    @State private var redSliderValue = Double.random(in: 0...255)
-    @State private var greenSliderValue = Double.random(in: 0...255)
-    @State private var blueSliderValue = Double.random(in: 0...255)
+    @State private var redValue = Double.random(in: 0...255)
+    @State private var greenValue = Double.random(in: 0...255)
+    @State private var blueValue = Double.random(in: 0...255)
     
     var body: some View {
         ZStack {
             Color(#colorLiteral(red: 0, green: 0.2884460092, blue: 0.6252598763, alpha: 1)).ignoresSafeArea()
             
             VStack(spacing: 15) {
-                RoundedRectangle(cornerRadius: 20.0)
-                    .fill(Color(.sRGB,
-                                red: redSliderValue / 255,
-                                green: greenSliderValue / 255,
-                                blue: blueSliderValue / 255,
-                                opacity: 1))
-                    .frame(height: 120)
-                    .overlay(RoundedRectangle(cornerRadius: 20)
-                                .stroke(Color.white, lineWidth: 3))
+                ColorView(red: redValue, green: greenValue, blue: blueValue)
                     .padding(.bottom, 50)
                 
-                ColorSelectorBar(value: $redSliderValue,
-                                 stringValue: "\(lround(redSliderValue))",
+                ColorSelectorBar(value: $redValue,
+                                 stringValue: "\(lround(redValue))",
                                  color: .red)
-                ColorSelectorBar(value: $greenSliderValue,
-                                 stringValue: "\(lround(greenSliderValue))",
+                ColorSelectorBar(value: $greenValue,
+                                 stringValue: "\(lround(greenValue))",
                                  color: .green)
-                ColorSelectorBar(value: $blueSliderValue,
-                                 stringValue: "\(lround(blueSliderValue))",
+                ColorSelectorBar(value: $blueValue,
+                                 stringValue: "\(lround(blueValue))",
                                  color: .blue)
                 
                 Spacer()
