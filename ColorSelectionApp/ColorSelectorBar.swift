@@ -32,8 +32,7 @@ struct ColorSelectorBar: View {
                 .onChange(of: stringValue) { enteredString in
 
                     // Фильтрация нецифровых символов
-                    let filteredString = enteredString
-                        .filter { "0123456789".contains($0) }
+                    let filteredString = enteredString.filter { "0123456789".contains($0) }
                     stringValue = filteredString
 
                     // Если строка пустая, то отображается "0"
@@ -42,8 +41,7 @@ struct ColorSelectorBar: View {
                         return
                     }
 
-                    guard
-                        let newValue = Double(filteredString),
+                    guard let newValue = Double(filteredString),
                         newValue <= 255 else {
 
                         // Если число больше 255
@@ -72,7 +70,7 @@ struct ColorSelectorBar_Previews: PreviewProvider {
             Color(.gray)
             ColorSelectorBar(value: $sliderValue,
                              stringValue: "\(lround(sliderValue))",
-                         color: .orange)
+                             color: .orange)
         }
     }
 }
